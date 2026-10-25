@@ -1,0 +1,17 @@
+/* Tema Marfil — luminoso y minimalista. El oro manda, el burdeos acompaña. */
+:root {
+    --bg:          #FDFAF4;
+    --bg-alt:      #F6F0E6;
+    --surface:     #FFFFFF;
+    --ink:         #3A3034;
+    --ink-soft:    #7A6E72;
+    --ink-faint:   #A79C9F;
+    --brand:       #8C6A3F;
+    --brand-ink:   #FFFFFF;
+    --accent:      #C4A36A;
+    --accent-soft: #EADCC2;
+    --line:        #EADFCE;
+    --line-strong: #D8C9B2;
+    --footer-bg:   #2A2024;
+    --footer-ink:  #F6F0E6;
+}

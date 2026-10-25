@@ -1,0 +1,9 @@
+# Redirige la raiz del proyecto a la carpeta public/.
+# Util cuando el dominio apunta a la raiz en lugar de a public/.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+Options -Indexes

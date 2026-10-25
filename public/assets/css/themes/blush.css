@@ -1,0 +1,17 @@
+/* Tema Blush — rosa cipria y marfil, en la línea de Blush Floral. */
+:root {
+    --bg:          #FDF7F3;
+    --bg-alt:      #FBEDEA;
+    --surface:     #FFFFFF;
+    --ink:         #3A2A2E;
+    --ink-soft:    #7D666C;
+    --ink-faint:   #A9939A;
+    --brand:       #A4546B;
+    --brand-ink:   #FFFFFF;
+    --accent:      #C4A36A;
+    --accent-soft: #F2D3D8;
+    --line:        #F0DCDC;
+    --line-strong: #DDBFC2;
+    --footer-bg:   #6E3447;
+    --footer-ink:  #FDF7F3;
+}

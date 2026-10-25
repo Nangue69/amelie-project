@@ -1,0 +1,29 @@
+/* Tema Chocolate — oscuro y envolvente, en la línea de The Muse. */
+:root {
+    --bg:          #211A16;
+    --bg-alt:      #2B221C;
+    --surface:     #32271F;
+    --ink:         #ECE3D6;
+    --ink-soft:    #BCAE9D;
+    --ink-faint:   #8E8070;
+    --brand:       #D9BE8B;
+    --brand-ink:   #211A16;
+    --accent:      #C4A36A;
+    --accent-soft: #6B5942;
+    --line:        #43362C;
+    --line-strong: #5A4A3C;
+    --footer-bg:   #16110E;
+    --footer-ink:  #ECE3D6;
+}
+
+/* En fondo oscuro el velo del hero debe aclarar, no oscurecer más. */
+.hero__media::after {
+    background: linear-gradient(105deg,
+        rgba(22, 17, 14, 0.74) 0%,
+        rgba(22, 17, 14, 0.46) 45%,
+        rgba(22, 17, 14, 0.12) 100%);
+}
+
+.manifesto { background: #2B221C; }
+.manifesto__body h2 { color: #ECE3D6; }
+.footer a { color: rgba(236, 227, 214, 0.78); }

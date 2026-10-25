@@ -1,0 +1,17 @@
+/* Tema Borgoña — el de marca. Burdeos sobre marfil con filetes en oro. */
+:root {
+    --bg:          #F6F0E6;
+    --bg-alt:      #FBF7F0;
+    --surface:     #FFFFFF;
+    --ink:         #2A2024;
+    --ink-soft:    #6E6166;
+    --ink-faint:   #9A8F93;
+    --brand:       #651D36;
+    --brand-ink:   #F6F0E6;
+    --accent:      #C4A36A;
+    --accent-soft: #E6D7BC;
+    --line:        #E4DACB;
+    --line-strong: #CFC1AE;
+    --footer-bg:   #651D36;
+    --footer-ink:  #F6F0E6;
+}
